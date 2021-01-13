@@ -86,10 +86,13 @@ stderr は無視される (見えるようにする予定)
 
 ```
 <- init 1 5
-<- played move 4 5
+<- played move 0 2
 <- wait
--> move 5 5
-以下同様
+-> move 8 3
+<- played move 0 2
+<- wait
+-> move 7 1
+以下同様に続く…
 <- result 0
 ```
 
