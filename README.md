@@ -1,5 +1,9 @@
 # Game 27 AI
 
+Game27のAI
+
+Python版: https://github.com/wass88/game-27-python
+
 # Build Docker Image
 `docker build . -t game-27-ai`
 
