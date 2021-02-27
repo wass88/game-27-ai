@@ -170,7 +170,7 @@ impl Input {
                 "pass" => Ok(Input::PlayedPass),
                 _ => Err(format!("Unknown Input: {:?}", v)),
             },
-            "res" => Ok(Input::Res(v[1].parse().unwrap())),
+            "result" => Ok(Input::Res(v[1].parse().unwrap())),
             "wait" => Ok(Input::Wait),
             _ => Err(format!("Unknown Input: {:?}", v)),
         }
